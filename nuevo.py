@@ -1,7 +1,9 @@
 #!/usr/bin/env python
+import streamlit at st
+
 # coding: utf-8
 
-# <center> <h1>Universidad Nacional de San Agustín de Arequipa</h1> </center> 
+st.markdown("<h1>Universidad Nacional de San Agustín de Arequipa</h1> </center>") 
 # <center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center> 
 # 
 # <center> <h1> </h1> </center> 
