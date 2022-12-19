@@ -1,5 +1,9 @@
 
 import streamlit as st
+def main():
+    """Generación de la webapp con streamlit"""
+    # Definir título
+    st.title("Título: Tutorial de Streamlit")
 
 
 st.write('Unsa')
