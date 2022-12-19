@@ -9,6 +9,7 @@ st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
 
 # <center><img src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"></center>
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://www.unsa.edu.pe/jaku/wp-content/themes/observatorio/img/unsa-logo.png)*")
 
 st.markdown("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Bolivar - Docente DAIE </h2>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
