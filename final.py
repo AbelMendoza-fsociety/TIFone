@@ -211,13 +211,13 @@ st.write("* El Parque nacional del Manu")
 st.subheader('Formulario de Google (Imagenes) ')
 
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)
-st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-3.fna.fbcdn.net/v/t1.15752-9/307582743_498504871720145_184238406226813648_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGbijPzlbxa60-7HAUXf6qwYuH9i8a0BpBi4f2LxrQGkJ28dzoN7eM93d6tnOspcraZc3h6ffSQPWvuQ_PEj44k&_nc_ohc=xgbssZJxclgAX8OvzZv&_nc_ht=scontent.faqp2-3.fna&oh=03_AdT32ddi1VJiKrYsvEw7bAy7WhSJ85JSEsVZ3WASrNA0zg&oe=63C7BF6D)*")
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-1.fna.fbcdn.net/v/t1.15752-9/319972017_1608836186213181_9205396135426992499_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG1-moyJlhpFOXbGMwD-x4OkcxophX-fkKRzGimFf5-Qs3figqHLlPMoOszX4r7-h96pa8UgmR7PrBAIX569oOh&_nc_ohc=uelSnsPmzN4AX8NSB2O&_nc_oc=AQnyuYKSKXfFJltNMs-cwo10AZq0XeM_o0L289fqKG8HomLIIVVnU3AwMwGZjvwV7bQ&tn=JOPy8uCJH79g_CZ7&_nc_ht=scontent.faqp2-1.fna&oh=03_AdSMFff74twcUC13M-ha1UY--pPV0dWOwdKGhY4NmXNt0A&oe=63C7B108)*")
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png)
 # 
 
 # #### Formulario de Google (Preprocesamiento)
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-26-17.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-26-17.png)
-
+st.write("*![captura-de-pantalla](https://scontent.faqp2-2.fna.fbcdn.net/v/t1.15752-9/319412304_1163347177658514_2115309225890312447_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGi4EbsiOLd-XfCGequ2qUdO0C_zgSa6eM7QL_OBJrp48k9jpDzcrbDjHshPxfKBswDuubnHOjqo2RRDOoGc7ba&_nc_ohc=2xRZVAIxa4wAX-HSnKZ&_nc_ht=scontent.faqp2-2.fna&oh=03_AdSQtgb3MTIv2jwGk9D22fTNGpYmQr5en5CuLONXKQ7rFw&oe=63C7A586)*")
 # In[ ]:
 
 
