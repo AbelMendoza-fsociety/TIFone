@@ -373,9 +373,9 @@ st.subheader('Gráfica de Calor')
 st.subheader('5.- RESULTADOS')
 st.write("*Los resultados de similitud obtenidos en **Dibujos Animados** según la tabla de **Correlación** con los siguientes encuestados:*"
 # 
-st.write("* 1. _dmejiagu@unsa.edu.pe_ y _diquiapazam@unsa.edu.pe_  obtienen el **PRIMER** indice mas alto de similitud *")
+st.write("* 1. dmejiagu@unsa.edu.pe y diquiapazam@unsa.edu.pe  obtienen el PRIMER indice mas alto de similitud *")
 #  
-st.write("* 2. _dmejiagu@unsa.edu.pe_ y _fargotem@unsa.edu.pe_ obtienen el **SEGUNDO** indice mas alto de similitud*")
+st.write("* 2.  dmejiagu@unsa.edu.pe y _fargotem@unsa.edu.pe  obtienen el **SEGUNDO indice mas alto de similitud*")
 
 
 
