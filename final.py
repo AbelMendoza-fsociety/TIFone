@@ -170,7 +170,7 @@ st.write("*Para poder tener el  <strong>Datset</strong> hay que recolectar infor
 
 st.subheader('Encuesta ejemplo:')
 
-st.write("* La encuesta la realizamos en Google-Form donde se solicitara escoger un Dibujo Animado"*)
+st.write("* La encuesta la realizamos en Google-Form donde se solicitara escoger un Dibujo Animado*")
 st.write("*Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)*")
 
 st.subheader('Formulario de Google (Preguntas) ')
