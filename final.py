@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import streamlit as st
+st.title(' Universidad Nacional de San Agustín de Arequipa') 
+st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
+st.markdown('##') 
+
 # <center> <h1>Universidad Nacional de San Agustín de Arequipa</h1> </center> 
 # <center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center> 
 # 
