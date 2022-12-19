@@ -99,7 +99,7 @@ st.subheader('Cómo se interpreta la correlación ')
 st.write("* El signo nos indica la dirección de la relación, como hemos visto en el diagrama de dispersión.*")
 st.write("*- un valor positivo indica una relación directa o positiva,*")
 st.write("* - un valor negativo indica relación indirecta, inversa o negativa,*")
-st.write("*n valor nulo indica que no existe una tendencia entre ambas variables (puede ocurrir que no exista relación o que la relación sea más compleja que una tendencia, por ejemplo, una relación en forma de U).*#)
+st.write("*n valor nulo indica que no existe una tendencia entre ambas variables (puede ocurrir que no exista relación o que la relación sea más compleja que una tendencia, por ejemplo, una relación en forma de U).*")
 
 st.write("*magnitud nos indica la fuerza de la relación, y toma valores entre $-1$ a $1$. Cuanto más cercano sea el valor a los extremos del intervalo ($1$ o $-1$) más fuerte será la tendencia de las variables, o será menor la dispersión que existe en los puntos alrededor de dicha tendencia. Cuanto más cerca del cero esté el coeficiente de correlación, más débil será la tendencia, es decir, habrá más dispersión en la nube de puntos.*")
 st.write("*- si la correlación vale $1$ o $-1$ diremos que la correlación es “perfecta”,*")
