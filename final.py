@@ -270,8 +270,8 @@ encuestaLTP.isnull().sum()
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
-# ## 2.- Correlación de Pearson  (Similitud)
 
+st.subheader('2. Correlación de Pearson  (Similitud) ')
 # In[ ]:
 
 
@@ -282,8 +282,7 @@ print(m)
 n[8]
 
 
-# ## 3.- Correlación en Pandas
-
+st.subheader('3. Correlación en Pandas')
 # In[ ]:
 
 
