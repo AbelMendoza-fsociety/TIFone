@@ -2,10 +2,10 @@
 import streamlit as st
 
 
-st.litle("Unsa")
+st.write('Unsa')
 
  
-st.write ("<center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center>") 
+st.write ('<center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center>') 
 
 
 # <center> <h1>Curso : Computación 1</h1> </center> 
