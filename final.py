@@ -211,7 +211,7 @@ st.write("* El Parque nacional del Manu")
 st.subheader('Formulario de Google (Imagenes) ')
 
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)
-st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)*")
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-3.fna.fbcdn.net/v/t1.15752-9/307582743_498504871720145_184238406226813648_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGbijPzlbxa60-7HAUXf6qwYuH9i8a0BpBi4f2LxrQGkJ28dzoN7eM93d6tnOspcraZc3h6ffSQPWvuQ_PEj44k&_nc_ohc=xgbssZJxclgAX8OvzZv&_nc_ht=scontent.faqp2-3.fna&oh=03_AdT32ddi1VJiKrYsvEw7bAy7WhSJ85JSEsVZ3WASrNA0zg&oe=63C7BF6D)*")
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png)
 # 
 
