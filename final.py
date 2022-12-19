@@ -2,13 +2,10 @@
 # coding: utf-8
 
 import streamlit as st
-import plotly.express as px
 st.title(' Universidad Nacional de San Agustín de Arequipa') 
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
-
-image = Image.open('Logo-UNSA.png')
-st.image(image, caption='chunsa')
+st.image(UNSA.png, caption=Ninguno, ancho=Ninguno, use_column_width=Ninguno, clamp=False, canales='RGB', formato_salida='automático')
 # <center> <h1>Universidad Nacional de San Agustín de Arequipa</h1> </center> 
 # <center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center> 
 # 
