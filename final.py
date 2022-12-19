@@ -593,8 +593,9 @@ plt.show
 # In[ ]:
 
 
-sns.heatmap(data=m_corrpanda) #grafica DE PANDAS DEL PROFESOR
+st.write("*sns.heatmap(data=m_corrpanda) #grafica DE PANDAS DEL PROFESOR*")
 plt.show
+
 
 
 # <center> <h1>Conclusiones</h1> </center> 
