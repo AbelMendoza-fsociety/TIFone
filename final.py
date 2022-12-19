@@ -233,11 +233,12 @@ import pandas as pd
 encuestaLTP = pd.read_csv('LTP.csv')
 #leer  lineas
 encuestaLTP
+st.subheader('Archivo CSV separado por comas ')
 
 
 # In[ ]:
 
-
+st.subheader('Cantidad de filas y columnas')
 encuestaLTP.shape
 
 
