@@ -201,7 +201,7 @@ st.write("* Caral")
 st.write("* Trujillo")
 st.write("* Chan Chan")
 st.write("* Huaca de la Luna")
-st.write("*Museo Tumbas Reales de Sipán")
+st.write("* Museo Tumbas Reales de Sipán")
 st.write("* Los Manglares de Tumbes")
 st.write("* Ayacucho")
 st.write("* La Reserva de Pacaya Samiria")
@@ -211,7 +211,7 @@ st.write("* El Parque nacional del Manu")
 st.subheader('Formulario de Google (Imagenes) ')
 
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)
-
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)*")
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-19-02.png)
 # 
 
