@@ -244,13 +244,12 @@ encuestaLTP.shape
 
 # In[ ]:
 
-
+st.subheader('Mostrando los NaN')
 encuestaLTP.dtypes
 
 
 # In[ ]:
 
-st.subheader('Mostrando los NaN')
 encuestaLTP.isnull().sum()
 
 
