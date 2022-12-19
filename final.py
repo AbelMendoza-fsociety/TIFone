@@ -368,28 +368,6 @@ print(f"el 2domayor es {mayor}")
 
 # ## Gráfica de Calor
 
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-# In[ ]:
-
-
-sns.heatmap(data=m_corrpanda) #CORRELACION DE PANDAS DEL PROFESOR
-plt.show
-
-
-# <div class="alert alert-info">
-# 
-#     
-#    **HALLAR**: a partir de la matriz de correlación en  <strong>Pandas</strong> .
-#     
-#    **Instalar** : `matplotlib` `seaborn`
-#     
-# </div>
 
 # ## 5.- RESULTADOS 
 
