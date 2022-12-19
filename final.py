@@ -365,28 +365,23 @@ for fila in x:
             mayor = valor
 print(f"el 2domayor es {mayor}")
 
-
+st.subheader('Gráfica de Calor')
 # ## Gráfica de Calor
 
 
 # ## 5.- RESULTADOS 
-
-# Los resultados de similitud obtenidos en **Dibujos Animados** según la tabla de **Correlación** con los siguientes encuestados:
+st.subheader('5.- RESULTADOS')
+st.write("*Los resultados de similitud obtenidos en **Dibujos Animados** según la tabla de **Correlación** con los siguientes encuestados:*"
 # 
-#  1. _dmejiagu@unsa.edu.pe_ y _diquiapazam@unsa.edu.pe_  obtienen el **PRIMER** indice mas alto de similitud 
+st.write("* 1. _dmejiagu@unsa.edu.pe_ y _diquiapazam@unsa.edu.pe_  obtienen el **PRIMER** indice mas alto de similitud *")
 #  
-#  2. _dmejiagu@unsa.edu.pe_ y _fargotem@unsa.edu.pe_ obtienen el **SEGUNDO** indice mas alto de similitud 
+st.write("* 2. _dmejiagu@unsa.edu.pe_ y _fargotem@unsa.edu.pe_ obtienen el **SEGUNDO** indice mas alto de similitud*")
 
-# <div class="alert alert-info">
-# 
-#     
-#    **HALLAR**: a partir de la matriz de correlación en  <strong>Pandas</strong>. A simple vista se puede observar los resultados, pero para una matriz mas grande se debe programar una `función` o `método` para que **localice los dos usuarios con mas alto valos de correlación**.
-#     
-# </div>
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# <center> <h1>Validación de Resultados</h1> </center> 
+# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.p
+         
+st.subheader('Validación de Resultados')
 
 # In[ ]:
 
@@ -397,23 +392,6 @@ print(f"el 2domayor es {mayor}")
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
 # ## Validación - Matrix de Correlación
-
-# 
-# <div class="alert alert-info">
-# 
-#    Se debe llenar la tabla de __VALIDACIÓN de la Matriz de Correlación__ con los valores de `Similitud` obtenidos
-#     
-#     
-#    En `NUMPY` a partir de las matrices `n` y `m` con funciones.
-#     
-# </div>
-
-# # Función para determinar el factor de correlacion de Pandas Mio
-
-# Se realiza la validación de los resultados obtenidos con la   `Matriz de Correlación de Pearson` en `Numpy` 
-#  
-
-# In[ ]:
 
 
 n = encuestaLTP[encuestaLTP.columns[1:]].to_numpy()
