@@ -3,7 +3,7 @@
 
 import streamlit as st
 from PIL import Image
-st.markdown("<h1 style='text-align: center; color: grey;'>Universidad Nacional de San Agustín de Arequipa</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'>Universidad Nacional de San Agustín de Arequipa</h1>", unsafe_allow_html=True)
 
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
@@ -14,8 +14,8 @@ st.markdown("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Boliv
 st.markdown("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
-st.title('Grupo B - N°1')
-# <center> <h2>GRUPO B - Nº1</h2> </center> 
+st.subheader("<h2 style='text-align: right; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
+st.subheader('Grupo B - N°1')
 # <h2>Alumnos:  </h2>
 # <h2>    
 # 
