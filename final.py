@@ -305,8 +305,8 @@ m_corrpanda
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-\n 4.- Matrix de Correlación
-
+st.subheader('4. Matrix de Correlación ')
+         
 # In[ ]:
 
 
@@ -322,7 +322,7 @@ m_corrpanda = np.round(m_corrpanda,
 m_corrpanda
 
 
-# ## Mayor Numero
+st.subheader('Mayor Numero')
 
 # In[ ]:
 
