@@ -28,15 +28,16 @@ st.subheader('                                  -Peña Quispe, Jeampiere Gary')
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
-# <center> <h1>INVESTIGACIÓN FORMATIVA</h1> </center> 
-# <center> <h1>PROYECTO FINAL</h1> </center> 
-# <center> <h1>PYTHON - Inteligencia Artificial</h1> </center> 
+st.subheader('INVESTIGACIÓN FORMATIVA')
+st.subheader('PROYECTO FINA')
+st.subheader('PYTHON - Inteligencia Artificial')
+
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 st.write("OBJETIVOS")
 
-# Los Objetivos de la investigación formativa son:
+st.write("*Los Objetivos de la investigación formativa son:*")
 st.write("*Competencia Comunicativa** Presentación de sus resultados con lenguaje de programación Python utilizando los archivos Jupyter Notebook*")
 st.write("*Competencia Aprendizaje**: con las aptitudes en **Descomposición** (desarticular el problema en pequeñas series de soluciones), **Reconocimiento de Patrones** (encontrar simulitud al momento de resolver problemas), **Abstracción** (omitir información relevante), **Algoritmos** (pasos para resolución de un problema).*")
 st.write("*Competencia de Trabajo en Equipo**: exige habilidades individuales y grupales orientadas a la cooperación, planificación, coordinación, asignación de tareas, cumplimiento de tareas y solución de conflictos en pro de un trabajo colectivo, utilizando los archivos Jupyter Notebook los cuales se sincronizan en el servidor Gitlab con comandos Git.*")
@@ -154,58 +155,59 @@ st.write("* La distribución de las variables deben ser semejantes a la curva no
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
-# <center> <h1>Propuesta</h1> </center> 
+st.subheader('Propuesta')
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
-# ## 1.- Dataset
 
-# <div class="alert alert-info">
-# 
-#     
-#    Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.
-#     
-# </div>
+st.subheader('Dataset')
 
-# #### Encuesta ejemplo:
 
-# La encuesta la realizamos en Google-Form donde se solicitara escoger un Dibujo Animado
-# - Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)
 
-# ### Formulario de Google (Preguntas)
-# 30 lugares increíbles para visitar en Perú
-# 1. Machu Picchu
-# 2. Cusco
-# 3. La fortaleza de Sacsayhuamán
-# 4. Maras y Moray
-# 5. Ollantaytambo
-# 6. Písac
-# 7. Choquequirao
-# 8. Monasterio de San Francisco 
-# 9. Museo Larco
-# 10. Pachacámac
-# 11. Líneas de Nazca
-# 12. Hacer el tour de tubulares en la Huacachina
-# 13. La Reserva nacional de Paracas
-# 14. Convento de Santa Catalina
-# 15. Cañón del Colca
-# 16. Lago Titicaca
-# 17. Fortaleza de Kuélap
-# 18. Catarata de Gocta
-# 19. Mausoleos de Revash
-# 20. Parque nacional de Huascarán
-# 21. Chavín de Huantar
-# 22. Caral
-# 23. Trujillo
-# 24. Chan Chan
-# 25. Huaca de la Luna
-# 26. Museo Tumbas Reales de Sipán
-# 27. Los Manglares de Tumbes
-# 28. Ayacucho
-# 29. La Reserva de Pacaya Samiria
-# 30. El Parque nacional del Manu
 
-# ### Formulario de Google (Imagenes)
+st.write("*Para poder tener el  <strong>Datset</strong> hay que recolectar información con una encuenta elaborada por nosotros.*")
+
+
+st.subheader('Encuesta ejemplo:')
+
+st.write("* La encuesta la realizamos en Google-Form donde se solicitara escoger un Dibujo Animado"*)
+st.write("*Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas le gusta (escala de liker)*")
+
+st.subheader('Formulario de Google (Preguntas) ')
+st.subheader('30 lugares increíbles para visitar en Perú')
+st.write("* Machu Picchu*")
+st.write("*Cusco*")
+st.write("* La fortaleza de Sacsayhuamán*")
+st.write("*Maras y Moray*")
+st.write("*Ollantaytambo*")
+st.write("*Písac*")
+st.write("*Choquequirao*")
+st.write("*Monasterio de San Francisco *")
+st.write("*Museo Larco*")
+st.write("*Pachacámac*")
+st.write("*Líneas de Nazca*")
+st.write("*Hacer el tour de tubulares en la Huacachina*")
+st.write("*La Reserva nacional de Paracas*")
+st.write("*Convento de Santa Catalina*")
+st.write("*Cañón del Colca*")
+st.write("*Lago Titicaca*")
+st.write("*Fortaleza de Kuélap*")
+st.write("*Catarata de Gocta*")
+st.write("*Mausoleos de Revash*")
+st.write("*Parque nacional de Huascarán*")
+st.write("* Chavín de Huantar*")
+st.write("*Caral*")
+st.write("* Trujillo*")
+st.write("*Chan Chan*")
+st.write("* Huaca de la Luna*")
+st.write("*Museo Tumbas Reales de Sipán*")
+st.write("*Los Manglares de Tumbes*")
+st.write("*Ayacucho*")
+st.write("*La Reserva de Pacaya Samiria*")
+st.write("*El Parque nacional del Manu*")
+
+
+st.subheader('Formulario de Google (Imagenes) ')
 
 # ![Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png](attachment:Captura%20de%20pantalla%20de%202022-12-08%2012-24-11.png)
 
