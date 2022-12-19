@@ -14,8 +14,7 @@ st.markdown("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Boliv
 st.markdown("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
-st.subheader("<h2 style='text-align: right; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
-st.subheader('Grupo B - N°1')
+st.subheader("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
 
 st.markdown("<h1 style='text-align: center; color: white;'>Grupo B - N°1</h1>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center; color: white;'>Alumnos</h1>", unsafe_allow_html=True)
