@@ -11,8 +11,8 @@ st.markdown('##')
 # <center><img src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"></center>
 # 
 
-st.subheader("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Bolivar - Docente DAIE </h2>", unsafe_allow_html=True)
-st.subheader("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Bolivar - Docente DAIE </h2>", unsafe_allow_html=True)
+st.smarkdown("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
 
