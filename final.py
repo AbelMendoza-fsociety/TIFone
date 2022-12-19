@@ -42,12 +42,13 @@ st.write("*Competencia de Trabajo en Equipo**: exige habilidades individuales y 
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
 
-st.subheader('CAplicación en IA')
+st.subheader('Aplicación en IA')
 st.subheader('Sistema Recomendador')
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# <div class="alert alert-info">
+st.write('<div class="alert alert-info">')
+st.write("*El Sistema recomendador deberá encontrar la <strong>compatibilidad o similitud</strong> entre un grupo de personas encuestadas, en las áreas de:*")
 # El Sistema recomendador deberá encontrar la <strong>compatibilidad o similitud</strong> entre un grupo de personas encuestadas, en las áreas de:
 # 
 # </div>
