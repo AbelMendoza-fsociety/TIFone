@@ -1,15 +1,9 @@
 
 import streamlit as st
-import datetime
-from PIL import Image
-
-def run_fxn(n: int) -> list:
-    return range(n)
-def main():
-    """Generación de la webapp con streamlit"""
-    # Definir título
-    st.title("Título: Tutorial de Streamlit")
-
+st.title(':clipboard
+st.title(':clipboard: Reporte de Ventas') #Titulo del Dash
+st.subheader('Compañía TECH SAS')
+st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
 
 st.write('Unsa')
 
