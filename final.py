@@ -175,14 +175,15 @@ st.write("*Donde si escoge 1 es el que menos le gusta hasta 5 que es el que mas 
 
 st.subheader('Formulario de Google (Preguntas) ')
 st.subheader('30 lugares increíbles para visitar en Perú')
-st.write("* Machu Picchu*")
+
+st.write("*Machu Picchu*")
 st.write("*Cusco*")
-st.write("* La fortaleza de Sacsayhuamán*")
+st.write("*La fortaleza de Sacsayhuamán*")
 st.write("*Maras y Moray*")
 st.write("*Ollantaytambo*")
 st.write("*Písac*")
 st.write("*Choquequirao*")
-st.write("*Monasterio de San Francisco *")
+st.write("*Monasterio de San Francisco*")
 st.write("*Museo Larco*")
 st.write("*Pachacámac*")
 st.write("*Líneas de Nazca*")
