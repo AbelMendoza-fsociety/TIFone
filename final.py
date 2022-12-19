@@ -71,7 +71,7 @@ st.write("*Para poder tener el  Datset hay que recolectar información a travez 
 st.write("*¿Qué es la correlación?*")
 
 st.write("*La correlación es un tipo de asociación entre dos variables numéricas, específicamente evalúa la **tendencia (creciente o decreciente) en los datos**.*")
-st.write("*Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable."*)
+st.write("*Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable.*")
 
 st.write("*Dos variables ***se correlacionan cuando muestran una tendencia creciente o decreciente***.*")
 
