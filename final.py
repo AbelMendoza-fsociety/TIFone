@@ -2,22 +2,17 @@
 # coding: utf-8
 
 import streamlit as st
+from PIL import Image
 st.title(' Universidad Nacional de San Agustín de Arequipa') 
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
-st.image(UNSA.png, caption=Ninguno, ancho=Ninguno, use_column_width=Ninguno, clamp=False, canales='RGB', formato_salida='automático')
-# <center> <h1>Universidad Nacional de San Agustín de Arequipa</h1> </center> 
-# <center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center> 
-# 
-# <center> <h1> </h1> </center> 
-# 
+
 # <center><img src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"></center>
 # 
-
-# <center> <h2>Ingeniero Renzo Bolivar - Docente DAIE</h2> </center> 
+st.subheader('Ingeniero Renzo Bolivar - Docente DAIE')
 
 # <center> <h1>Curso : Computación 1</h1> </center> 
-
+st.subheader('Computación 1')
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
 
 # <center> <h2>GRUPO B - Nº1</h2> </center> 
