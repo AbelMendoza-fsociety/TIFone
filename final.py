@@ -2,7 +2,16 @@
 # coding: utf-8
 
 import streamlit as st
-from PIL import Image
+from streamlit_option_menu import option_menu
+import streamlit.components.v1 as html
+from  PIL import Image
+import numpy as np
+import cv2
+import pandas as pd
+from st_aggrid import AgGrid
+import plotly.express as px
+import io 
+
 st.markdown("<h1 style='text-align: center; color: white;'>Universidad Nacional de San Agustín de Arequipa</h1>", unsafe_allow_html=True)
 
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
@@ -158,7 +167,7 @@ st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.gi
 st.subheader('Propuesta')
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
-
+pip install streamlit-opción-menú 
 
 st.subheader('Dataset')
 
