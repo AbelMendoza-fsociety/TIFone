@@ -18,9 +18,8 @@ st.subheader("<h2 style='text-align: right; color: white;'>Computación 1</h2>",
 st.subheader('Grupo B - N°1')
 
 st.markdown("<h1 style='text-align: center; color: white;'>Grupo B - N°1</h1>", unsafe_allow_html=True)
-# <h2>Alumnos:  </h2>
 st.markdown("<h1 style='text-align: center; color: white;'>Alumnos</h1>", unsafe_allow_html=True)
-# <h2>    
+    
 # 
 #     - Gonzales Jara, Edwar Gareth
 #     
