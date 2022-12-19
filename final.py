@@ -547,7 +547,7 @@ st.write("* Los 2 primer mayor resultados*")
 
 st.write("*el mayor es: *") 
 st.write("*dpilaresc@unsa.edu.pe      0.8050*")
- st.write("*el 2domayor es:*")
+st.write("*el 2domayor es:*")
 st.write("*rramosmont@unsa.edu.pe     0.8050*")
  
 st.write("*el 1ermayor es:
