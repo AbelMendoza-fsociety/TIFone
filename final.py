@@ -4,11 +4,7 @@ st.title(':clipboard: Universidad Nacional de San Agustín de Arequipa') #Titulo
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
 
-st.write('Unsa')
-
- 
-st.write ('<center> <h1>Escuela Profesional de Ingeniería de Telecomunicaciones</h1> </center>') 
-
+st.image('src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"')
 
 # <center> <h1>Curso : Computación 1</h1> </center> 
 
