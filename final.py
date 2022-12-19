@@ -215,7 +215,7 @@ st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-2.fna.fbcdn.net/v/t1.15752-9/319412304_1163347177658514_2115309225890312447_n.png?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGi4EbsiOLd-XfCGequ2qUdO0C_zgSa6eM7QL_OBJrp48k9jpDzcrbDjHshPxfKBswDuubnHOjqo2RRDOoGc7ba&_nc_ohc=2xRZVAIxa4wAX-HSnKZ&_nc_ht=scontent.faqp2-2.fna&oh=03_AdSQtgb3MTIv2jwGk9D22fTNGpYmQr5en5CuLONXKQ7rFw&oe=63C7A586)*")
 
-# #### Formulario de Google (Preprocesamiento)
+st.subheader('Formulario de Google (Preprocesamiento) ')
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-3.fna.fbcdn.net/v/t1.15752-9/319560832_838293997284770_8445679745426101639_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHb1Urpa6qNU7Ja01mXc37cINdqrelR1MIg12qt6VHUwvU_WPs_h3t-GhyFRXOynz7wvD-fDGAnXeCyc4QrOwLU&_nc_ohc=0pvs-o-Ls9IAX-JqyyY&tn=JOPy8uCJH79g_CZ7&_nc_ht=scontent.faqp2-3.fna&oh=03_AdR4tCix0puvI8cWuKJXEEQzqYA_-MjHnLv1_q923YYxAQ&oe=63C7B07E)*")
 
 
