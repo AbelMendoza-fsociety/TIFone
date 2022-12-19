@@ -63,23 +63,19 @@ st.subheader('Análisis de Correlación')
 
 st.write("*El **análisis de correlación** es el primer paso para construir modelos explicativos y predictivos más complejos.*")
 
-# <div class="alert alert-info">
-# 
-#    A menudo nos interesa observar y medir la <strong>relación entre 2 variables numéricas</strong> mediante el análisis de correlación. 
-#    Se trata de una de las *técnicas más habituales en análisis de datos* y el primer paso necesario antes de construir cualquier <strong>modelo explicativo o predictivo más complejo</strong>.
-#    Para poder tener el  Datset hay que recolectar información a travez de encuentas.
-#     
-# </div>
+st.write("*A menudo nos interesa observar y medir la <strong>relación entre 2 variables numéricas</strong> mediante el análisis de correlación.*")
+st.write("*Se trata de una de las *técnicas más habituales en análisis de datos* y el primer paso necesario antes de construir cualquier modelo explicativo o predictivo más complejo.*")
+st.write("*Para poder tener el  Datset hay que recolectar información a travez de encuentas.*")
 
-# ### ¿Qué es la correlación?
 
-# La correlación es un tipo de asociación entre dos variables numéricas, específicamente evalúa la **tendencia (creciente o decreciente) en los datos**.
-# 
-# Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable.
-# 
-# Dos variables ***se correlacionan cuando muestran una tendencia creciente o decreciente***.
+st.write("*¿Qué es la correlación?*")
 
-# ### ¿Cómo se mide la correlación?
+st.write("*La correlación es un tipo de asociación entre dos variables numéricas, específicamente evalúa la **tendencia (creciente o decreciente) en los datos**.*")
+st.write(*"Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable."*)
+
+st.write(*"Dos variables ***se correlacionan cuando muestran una tendencia creciente o decreciente***.*")
+
+st.write(*"¿Cómo se mide la correlación?*")
 
 # Tenemos el coeficiente de **correlación lineal de Pearson** que se *sirve para cuantificar tendencias lineales*, y el **coeficiente de correlación de Spearman** que se utiliza para *tendencias de aumento o disminución, no necesariamente lineales pero sí monótonas*. 
 
@@ -109,59 +105,53 @@ st.write("*El **análisis de correlación** es el primer paso para construir mod
 #  - si la correlación vale $1$ o $-1$ diremos que la correlación es “perfecta”,
 #  - si la correlación vale $0$ diremos que las variables no están correlacionadas.
 
-# 
-# <center><img src="https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" width="700" height="4200"></center>
-# 
-# 
-# 
 
-# <center> <h3>Fórmula Coeficiente de Correlación de Pearson</h3> </center>  
-# <center> <h3> </h3> </center> 
-# $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$
+ <center><img src="https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" width="700" height="4200"></center>
+ 
 
-# **Distancia Euclidiana**: La distancia euclidiana es la generalización del __`teorema de Pitágoras`__.
 
-# $$d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$
+st.subheader('Fórmula Coeficiente de Correlación de Pearson ')
 
-# **Regresión Lineal**: La regresión lineal se usa para encontrar una __`relación lineal entre el objetivo y uno o más predictores`__.
+st.write(*" $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$
 
-# ![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png)
+st.write(*"**Distancia Euclidiana**: La distancia euclidiana es la generalización del __`teorema de Pitágoras`__.
 
-# <div class="alert alert-info">
-# <strong>COMPLETAR MARCO TEÓRICO!!!!!</strong>
-# </div>
+st.write(*" $$d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$
 
-# ### Coeficiente de correlación de Pearson
-# #### En estadística, el coeficiente de correlación de Pearson es una medida de dependencia lineal entre dos variables aleatorias cuantitativas. A diferencia de la covarianza, la correlación de Pearson es independiente de la escala de medida de las variables.
-# 
-# #### De manera menos formal, podemos definir el coeficiente de correlación de Pearson como un índice que puede utilizarse para medir el grado de relación de dos variables siempre y cuando ambas sean cuantitativas y continuas.
+st.write(*" **Regresión Lineal**: La regresión lineal se usa para encontrar una __`relación lineal entre el objetivo y uno o más predictores`__.
 
-# ### Interpretación del coeficiente de correlación de Karl Pearson
-# El coeficiente de correlación de Pearson tiene el objetivo de indicar cuán asociadas se encuentran dos variables entre sí por lo que:
-# 
-# Correlación menor a cero: Si la correlación es menor a cero, significa que es negativa, es decir, que las variables se relacionan inversamente.
-# 
-# Cuando el valor de alguna variable es alto, el valor de la otra variable es bajo. Mientras más próximo se encuentre a -1, más clara será la covariación extrema. Si el coeficiente es igual a -1, nos referimos a una correlación negativa perfecta.
-# 
-# Correlación mayor a cero: Si la correlación es igual a +1 significa que es positiva perfecta. En este caso significa que la correlación es positiva, es decir, que las variables se correlacionan directamente.
-# 
-# Cuando el valor de una variable es alto, el valor de la otra también lo es, sucede lo mismo cuando son bajos. Si es cercano a +1, el coeficiente será la covariación.
-# 
-# Correlación igual a cero: Cuando la correlación es igual a cero significa que no es posible determinar algún sentido de covariación. Sin embargo, no significa que no exista una relación no lineal entre las variables.
-# 
-# Cuando las variables son independientes significa que estas se encuentra correlacionadas, pero esto nos significa que el resultado sea verdadero.
-# 
-# 
+st.write(*" ![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png)
+
+st.write(*" Coeficiente de correlación de Pearson
+st.write(*" En estadística, el coeficiente de correlación de Pearson es una medida de dependencia lineal entre dos variables aleatorias cuantitativas. A diferencia de la covarianza, la correlación de Pearson es independiente de la escala de medida de las variables.
+ 
+st.write(*"De manera menos formal, podemos definir el coeficiente de correlación de Pearson como un índice que puede utilizarse para medir el grado de relación de dos variables siempre y cuando ambas sean cuantitativas y continuas.
+
+st.write(*"Interpretación del coeficiente de correlación de Karl Pearson
+st.write(*" El coeficiente de correlación de Pearson tiene el objetivo de indicar cuán asociadas se encuentran dos variables entre sí por lo que:
+ 
+st.write(*" Correlación menor a cero: Si la correlación es menor a cero, significa que es negativa, es decir, que las variables se relacionan inversamente.
+ 
+st.write(*"Cuando el valor de alguna variable es alto, el valor de la otra variable es bajo. Mientras más próximo se encuentre a -1, más clara será la covariación extrema. Si el coeficiente es igual a -1, nos referimos a una correlación negativa perfecta.
+ 
+st.write(*"Correlación mayor a cero: Si la correlación es igual a +1 significa que es positiva perfecta. En este caso significa que la correlación es positiva, es decir, que las variables se correlacionan directamente.
+ 
+st.write(*"Cuando el valor de una variable es alto, el valor de la otra también lo es, sucede lo mismo cuando son bajos. Si es cercano a +1, el coeficiente será la covariación.
+ 
+st.write(*"Correlación igual a cero: Cuando la correlación es igual a cero significa que no es posible determinar algún sentido de covariación. Sin embargo, no significa que no exista una relación no lineal entre las variables.
+ 
+st.write(*"Cuando las variables son independientes significa que estas se encuentra correlacionadas, pero esto nos significa que el resultado sea verdadero.
+ 
 
 # ### Ventajas y desventajas del coeficiente de correlación de Pearson
 # Entre las principales ventajas del coeficiente de correlación de Karl Pearson se encuentran:
-# 
-# El valor es independiente de cualquier unidad que se utiliza para medir las variables.
-# Si la muestra es grande, es más probable la exactitud de la estimación.
-# Alguna de las desventajas del coeficiente de correlación son:
-# 
-# Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.
-# La distribución de las variables deben ser semejantes a la curva normal.
+
+st.write(*"El valor es independiente de cualquier unidad que se utiliza para medir las variables.
+st.write(*"Si la muestra es grande, es más probable la exactitud de la estimación.
+st.write(*"Alguna de las desventajas del coeficiente de correlación son:*")
+ 
+st.write(*" Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
+st.write(*" La distribución de las variables deben ser semejantes a la curva normal.*")
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
