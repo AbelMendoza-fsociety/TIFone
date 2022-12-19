@@ -252,11 +252,10 @@ encuestaLTP.dtypes
 
 encuestaLTP.isnull().sum()
 
-
 # ## Imputación de NaNs por la media
 
 # In[ ]:
-
+st.subheader('Imputación de NaNs por la media')
 
 for dat in encuestaLTP.columns[1:]:
     encuestaLTP[dat].fillna(encuestaLTP[dat].mean(),inplace=True)
@@ -269,7 +268,7 @@ encuestaLTP
 encuestaLTP.isnull().sum()
 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 # ## 2.- Correlación de Pearson  (Similitud)
 
