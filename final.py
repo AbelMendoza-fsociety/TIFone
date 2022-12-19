@@ -568,22 +568,12 @@ corr_mio_ordenada.max().sort_values(ascending=False)
 corr_mio_ordenada=pd.DataFrame(data=m_corr_mio,columns=m)
 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
-
-# In[ ]:
-
-
-print(m[0])
-m_corr_mio[0]
+# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.p
 
 
 st.subheader('Grafica de Calor Propio')
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-3.fna.fbcdn.net/v/t1.15752-9/315524988_2000299573502884_9078479069170880252_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGbXntG-rxR00wSqHjiWZhzAsWytH12qCsCxbK0fXaoKwsgHkcpBcK56w1YNRdDYwPQA42ndeCbOR55vPl-3OOp&_nc_ohc=rQBo_SF-VuQAX8Ra29d&_nc_oc=AQkYmNuaCJ5nptCFtczWtuAn0Ds6l4kf0NsWOpFRtqpubeXtSXGqOycNCgCz4JtIHm0&_nc_ht=scontent.faqp2-3.fna&oh=03_AdRNOmlz53GOOzuZf8HAOZpT0K66IR4FbcurUlinMhGEuw&oe=63C7CD1B)*")
 
-
-
-sns.heatmap(m_corr_mio)
-plt.show
 
 
 # In[ ]:
