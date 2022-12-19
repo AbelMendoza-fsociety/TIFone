@@ -252,7 +252,7 @@ encuestaLTP.dtypes
 
 encuestaLTP.isnull().sum()
 
-# ## Imputación de NaNs por la media
+
 
 # In[ ]:
 st.subheader('Imputación de NaNs por la media')
@@ -376,7 +376,6 @@ print(f"el 2domayor es {mayor}")
 # In[ ]:
 
 
-import matplotlib.pyplot as plt
 import seaborn as sns
 
 
