@@ -47,24 +47,13 @@ st.subheader('Sistema Recomendador')
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-st.write('<div class="alert alert-info">')
 st.write("*El Sistema recomendador deberá encontrar la <strong>compatibilidad o similitud</strong> entre un grupo de personas encuestadas, en las áreas de:*")
-# El Sistema recomendador deberá encontrar la <strong>compatibilidad o similitud</strong> entre un grupo de personas encuestadas, en las áreas de:
-# 
-# </div>
+st.write("*Musica*")
+st.write("*Peliculas*")  
+st.write("*Comida*")
+st.write("*Lugares que desean Conocer*")   
+st.write("*Obras de Arte*") 
 
-# <div class="alert alert-info">
-#     
-#    -Musica
-#    
-#    -Peliculas
-#     
-#    -Comida
-#     
-#    -Lugares que desean Conocer
-#     
-#    -Obras de Arte
-# 
 #     
 # 
 # 
