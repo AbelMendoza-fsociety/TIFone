@@ -3,7 +3,7 @@ import streamlit as st
 st.title(' Universidad Nacional de San Agustín de Arequipa') #Titulo del Dash
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
-st.write('(image.png)(https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
+st.write('[image.png](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)')
 
 
 
