@@ -77,7 +77,7 @@ st.write("*Dos variables ***se correlacionan cuando muestran una tendencia creci
 
 st.write("*¿Cómo se mide la correlación?*")
 
-st.write("*Tenemos el coeficiente de **correlación lineal de Pearson** que se *sirve para cuantificar tendencias lineales*, y el **coeficiente de correlación de Spearman** que se utiliza para *tendencias de aumento o disminución, no necesariamente lineales pero sí monótonas*. 
+st.write("*Tenemos el coeficiente de **correlación lineal de Pearson** que se *sirve para cuantificar tendencias lineales*, y el **coeficiente de correlación de Spearman** que se utiliza para *tendencias de aumento o disminución, no necesariamente lineales pero sí monótonas*.*")
 
 st.subheader('Correlación de Pearson ')
 
