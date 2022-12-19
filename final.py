@@ -375,10 +375,6 @@ print(f"el 2domayor es {mayor}")
 
 # In[ ]:
 
-
-import seaborn as sns
-
-
 # In[ ]:
 
 
