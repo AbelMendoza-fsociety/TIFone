@@ -54,26 +54,14 @@ st.write("*Comida*")
 st.write("*Lugares que desean Conocer*")   
 st.write("*Obras de Arte*") 
 
-#     
-# 
-# 
-#     
-# </div>
-
-# <div class="alert alert-info">
-# 
-#     
-#    La <strong>compatibilidad o similitud</strong> será encontrada con el algoritmo de <strong>Correlación de Pearson</strong> y será verificada con la <strong>La Matrix de Correlación de Pearson con una librería de Python y utilizando una función personal</strong>
-#     
-# </div>
+st.write("*La compatibilidad o similitud será encontrada con el algoritmo de Correlación de Pearson y será verificada con la La Matrix de Correlación de Pearson con una librería de Python y utilizando una función personal*")  
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
-# <center> <h1>Base Teórica</h1> </center> 
+st.subheader('Base Teórica')
+st.subheader('Análisis de Correlación')
 
-# ## Análisis de Correlación
-
-# El **análisis de correlación** es el primer paso para construir modelos explicativos y predictivos más complejos.
+st.write("*El **análisis de correlación** es el primer paso para construir modelos explicativos y predictivos más complejos.*")
 
 # <div class="alert alert-info">
 # 
