@@ -550,7 +550,7 @@ st.write("*dpilaresc@unsa.edu.pe      0.8050*")
 st.write("*el 2domayor es:*")
 st.write("*rramosmont@unsa.edu.pe     0.8050*")
  
-st.write("*el 1ermayor es:
+st.write("*el 1ermayor es:*")
 st.write("*dpilaresc@unsa.edu.pe    0.8049837428908978*")
 #     
 st.write("*el 2domayor es:*")
