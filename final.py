@@ -159,7 +159,6 @@ st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.gi
 st.subheader('Propuesta')
 
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
-pip install streamlit-opción-menú 
 
 st.subheader('Dataset')
 
