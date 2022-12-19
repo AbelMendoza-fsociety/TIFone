@@ -596,8 +596,8 @@ st.subheader('Grafica de Calor Propio PANDAS')
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-1.fna.fbcdn.net/v/t1.15752-9/319159407_3230449323885820_2267753677792259507_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFLn-OlyDpEgCTQ-lRzSkAqiylD1MwMSkKLKUPUzAxKQlUoF06vgyeWpI2vBhdtS0j7rJKiMhVQkqib51u1Owwh&_nc_ohc=uv9fQoET3OAAX-OFHFM&_nc_ht=scontent.faqp2-1.fna&oh=03_AdRYs6gJooAi6T3Ahr03sTLBM5Rb-sY54X5J5nim2zQaRw&oe=63C7CD04)*")
 
 
+st.subheader('Conclusiones')
 
-# <center> <h1>Conclusiones</h1> </center> 
 
 #  <div class="alert alert-info">
 #     
