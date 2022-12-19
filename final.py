@@ -71,86 +71,84 @@ st.write("*Para poder tener el  Datset hay que recolectar información a travez 
 st.write("*¿Qué es la correlación?*")
 
 st.write("*La correlación es un tipo de asociación entre dos variables numéricas, específicamente evalúa la **tendencia (creciente o decreciente) en los datos**.*")
-st.write(*"Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable."*)
+st.write("*Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable."*)
 
-st.write(*"Dos variables ***se correlacionan cuando muestran una tendencia creciente o decreciente***.*")
+st.write("*Dos variables ***se correlacionan cuando muestran una tendencia creciente o decreciente***.*")
 
-st.write(*"¿Cómo se mide la correlación?*")
+st.write("*¿Cómo se mide la correlación?*")
 
-st.write(*"Tenemos el coeficiente de **correlación lineal de Pearson** que se *sirve para cuantificar tendencias lineales*, y el **coeficiente de correlación de Spearman** que se utiliza para *tendencias de aumento o disminución, no necesariamente lineales pero sí monótonas*. 
+st.write("*Tenemos el coeficiente de **correlación lineal de Pearson** que se *sirve para cuantificar tendencias lineales*, y el **coeficiente de correlación de Spearman** que se utiliza para *tendencias de aumento o disminución, no necesariamente lineales pero sí monótonas*. 
 
 st.subheader('Correlación de Pearson ')
 
 
-st.write(*"El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas.*")
+st.write("*El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas.*")
 
 
-st.write(*"Es el método de correlación más utilizado, pero asume que:*"
+st.write("*Es el método de correlación más utilizado, pero asume que:*")
 # 
-st.write(*"- La tendencia debe ser de tipo lineal.*")
-st.write(*" - No existen valores atípicos (outliers).*")
-st.write(*" - Las variables deben ser numéricas.*")
-st.write(*"- Tenemos suficientes datos (algunos autores recomiendan tener más de 30 puntos u observaciones).*")
+st.write("*- La tendencia debe ser de tipo lineal.*")
+st.write("* - No existen valores atípicos (outliers).*")
+st.write("* - Las variables deben ser numéricas.*")
+st.write("*- Tenemos suficientes datos (algunos autores recomiendan tener más de 30 puntos u observaciones).*")
 # 
 st.write(*" Los dos primeros supuestos se pueden evaluar simplemente con un diagrama de dispersión, mientras que para los últimos basta con mirar los datos y evaluar el diseño que tenemos.*")
 
 st.subheader('Cómo se interpreta la correlación ')
 
 st.write("* El signo nos indica la dirección de la relación, como hemos visto en el diagrama de dispersión.*")
-st.write("*- un valor positivo indica una relación directa o positiva,*"
-st.write("* - un valor negativo indica relación indirecta, inversa o negativa,*"
+st.write("*- un valor positivo indica una relación directa o positiva,*")
+st.write("* - un valor negativo indica relación indirecta, inversa o negativa,*")
 st.write("*n valor nulo indica que no existe una tendencia entre ambas variables (puede ocurrir que no exista relación o que la relación sea más compleja que una tendencia, por ejemplo, una relación en forma de U).*#)
 
 st.write("*magnitud nos indica la fuerza de la relación, y toma valores entre $-1$ a $1$. Cuanto más cercano sea el valor a los extremos del intervalo ($1$ o $-1$) más fuerte será la tendencia de las variables, o será menor la dispersión que existe en los puntos alrededor de dicha tendencia. Cuanto más cerca del cero esté el coeficiente de correlación, más débil será la tendencia, es decir, habrá más dispersión en la nube de puntos.*")
 st.write("*- si la correlación vale $1$ o $-1$ diremos que la correlación es “perfecta”,*")
 st.write("*- si la correlación vale $0$ diremos que las variables no están correlacionadas.*")
 
-
- <center><img src="https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" width="700" height="4200"></center>
- 
+        
 
 
 st.subheader('Fórmula Coeficiente de Correlación de Pearson ')
 
-st.write(*" $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$*")
+st.write("* $$ r(x,y)=\frac{\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}}\sqrt{\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}$$*")
 
-st.write(*"**Distancia Euclidiana**: La distancia euclidiana es la generalización del __`teorema de Pitágoras`__.*")
+st.write("***Distancia Euclidiana**: La distancia euclidiana es la generalización del __`teorema de Pitágoras`__.*")
 
-st.write(*" $$d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$*")
+st.write("* $$d_{E}(x,y)=\sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^{2}}$$*")
 
-st.write(*" **Regresión Lineal**: La regresión lineal se usa para encontrar una __`relación lineal entre el objetivo y uno o más predictores`__.*")
+st.write("* **Regresión Lineal**: La regresión lineal se usa para encontrar una __`relación lineal entre el objetivo y uno o más predictores`__.*")
 
-st.write(*" ![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png)
 
-st.write(*" Coeficiente de correlación de Pearson*")
-st.write(*" En estadística, el coeficiente de correlación de Pearson es una medida de dependencia lineal entre dos variables aleatorias cuantitativas. A diferencia de la covarianza, la correlación de Pearson es independiente de la escala de medida de las variables.*")
+st.write("* Coeficiente de correlación de Pearson*")
+st.write("* En estadística, el coeficiente de correlación de Pearson es una medida de dependencia lineal entre dos variables aleatorias cuantitativas. A diferencia de la covarianza, la correlación de Pearson es independiente de la escala de medida de las variables.*")
  
-st.write(*"De manera menos formal, podemos definir el coeficiente de correlación de Pearson como un índice que puede utilizarse para medir el grado de relación de dos variables siempre y cuando ambas sean cuantitativas y continuas.*")
+st.write("*De manera menos formal, podemos definir el coeficiente de correlación de Pearson como un índice que puede utilizarse para medir el grado de relación de dos variables siempre y cuando ambas sean cuantitativas y continuas.*")
 
-st.write(*"Interpretación del coeficiente de correlación de Karl Pearson*")
-st.write(*" El coeficiente de correlación de Pearson tiene el objetivo de indicar cuán asociadas se encuentran dos variables entre sí por lo que:*")
+st.write("*Interpretación del coeficiente de correlación de Karl Pearson*")
+st.write("* El coeficiente de correlación de Pearson tiene el objetivo de indicar cuán asociadas se encuentran dos variables entre sí por lo que:*")
  
-st.write(*" Correlación menor a cero: Si la correlación es menor a cero, significa que es negativa, es decir, que las variables se relacionan inversamente*")
-st.write(*"Cuando el valor de alguna variable es alto, el valor de la otra variable es bajo. Mientras más próximo se encuentre a -1, más clara será la covariación extrema. Si el coeficiente es igual a -1, nos referimos a una correlación negativa perfecta.*")
+st.write("*Correlación menor a cero: Si la correlación es menor a cero, significa que es negativa, es decir, que las variables se relacionan inversamente*")
+st.write("*Cuando el valor de alguna variable es alto, el valor de la otra variable es bajo. Mientras más próximo se encuentre a -1, más clara será la covariación extrema. Si el coeficiente es igual a -1, nos referimos a una correlación negativa perfecta.*")
  
-st.write(*"Correlación mayor a cero: Si la correlación es igual a +1 significa que es positiva perfecta. En este caso significa que la correlación es positiva, es decir, que las variables se correlacionan directamente.*")
+st.write("*Correlación mayor a cero: Si la correlación es igual a +1 significa que es positiva perfecta. En este caso significa que la correlación es positiva, es decir, que las variables se correlacionan directamente.*")
  
-st.write(*"Cuando el valor de una variable es alto, el valor de la otra también lo es, sucede lo mismo cuando son bajos. Si es cercano a +1, el coeficiente será la covariación.*")
+st.write("*Cuando el valor de una variable es alto, el valor de la otra también lo es, sucede lo mismo cuando son bajos. Si es cercano a +1, el coeficiente será la covariación.*")
  
-st.write(*"Correlación igual a cero: Cuando la correlación es igual a cero significa que no es posible determinar algún sentido de covariación. Sin embargo, no significa que no exista una relación no lineal entre las variables.*")
+st.write("*Correlación igual a cero: Cuando la correlación es igual a cero significa que no es posible determinar algún sentido de covariación. Sin embargo, no significa que no exista una relación no lineal entre las variables.*")
  
-st.write(*"Cuando las variables son independientes significa que estas se encuentra correlacionadas, pero esto nos significa que el resultado sea verdadero.*")
+st.write("*Cuando las variables son independientes significa que estas se encuentra correlacionadas, pero esto nos significa que el resultado sea verdadero.*")
  
 
-st.write(*"Ventajas y desventajas del coeficiente de correlación de Pearson*")
-st.write(*"Entre las principales ventajas del coeficiente de correlación de Karl Pearson se encuentran:*")
+st.write("*Ventajas y desventajas del coeficiente de correlación de Pearson*")
+st.write("*Entre las principales ventajas del coeficiente de correlación de Karl Pearson se encuentran:*")
 
-st.write(*"El valor es independiente de cualquier unidad que se utiliza para medir las variables.*")
-st.write(*"Si la muestra es grande, es más probable la exactitud de la estimación.*")
-st.write(*"Alguna de las desventajas del coeficiente de correlación son:*")
+st.write("*El valor es independiente de cualquier unidad que se utiliza para medir las variables.*")
+st.write("*Si la muestra es grande, es más probable la exactitud de la estimación.*")
+st.write("*Alguna de las desventajas del coeficiente de correlación son:*")
  
-st.write(*" Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
-st.write(*" La distribución de las variables deben ser semejantes a la curva normal.*")
+st.write("*Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
+st.write("* La distribución de las variables deben ser semejantes a la curva normal.*")
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
 
