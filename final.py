@@ -538,42 +538,34 @@ st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2
 
 st.subheader('Conclusiones')
 
-
-#  <div class="alert alert-info">
-
 st.subheader('Se valido o no los resultado')
 
-#     Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas "m_corr_mio"
+st.write("*Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas *")
 #    
-#     - Los resultados Validados son:
-#     Los 2 primer mayor resultados
+st.write("*Los resultados Validados son:*")
+st.write("* Los 2 primer mayor resultados*")
+
+st.write("*el mayor es: *") 
+st.write("*dpilaresc@unsa.edu.pe      0.8050*")
+ st.write("*el 2domayor es:*")
+st.write("*rramosmont@unsa.edu.pe     0.8050*")
+ 
+st.write("*el 1ermayor es:
+st.write("*dpilaresc@unsa.edu.pe    0.8049837428908978*")
 #     
-#     m_corr pandas:
+st.write("*el 2domayor es:*")
+st.write("*rramosmont@unsa.edu.pe   0.7902805620025483*")
+#     
+st.write("*¿Es efectivo el metodo de correlación de pearson?*")
+st.write("* Si porque valor es independiente de cualquier unidad que se utiliza para medir las variables.*")
+st.write("*Si la muestra es grande, es más probable la exactitud de la estimación.*")
+st.write("*Alguna de las desventajas del coeficiente de correlación son:*")
 # 
-#  el mayor es:  
-# dpilaresc@unsa.edu.pe      0.8050
-# el 2domayor es:
-# rramosmont@unsa.edu.pe     0.8050
-# 
-#     m_corrpanda_mio:
+st.write("*Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
+st.write("*La distribución de las variables deben ser semejantes a la curva normal.*")
 #     
-#     el 1ermayor es:
-# dpilaresc@unsa.edu.pe    0.8049837428908978
-#     
-#     el 2domayor es:
-# rramosmont@unsa.edu.pe   0.7902805620025483
-#     
-# - ¿Es efectivo el metodo de correlación de pearson?
-# Si porque valor es independiente de cualquier unidad que se utiliza para medir las variables.
-# Si la muestra es grande, es más probable la exactitud de la estimación.
-# Alguna de las desventajas del coeficiente de correlación son:
-# 
-# Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.
-# La distribución de las variables deben ser semejantes a la curva normal.
-#     
-# - Correlación de Pearson y Regresión Lineal, ¿cual es su relación?
-# El coeficiente de correlación lineal es una medida de regresión que sirve para establecer una relación lineal entre dos variables. De esta manera, su cálculo permite conocer con exactitud el grado de dispersión de los valores  de una variable en relación con una media para dicha variable.
-#        
+st.write("*Correlación de Pearson y Regresión Lineal, ¿cual es su relación?*")
+st.write("* El coeficiente de correlación lineal es una medida de regresión que sirve para establecer una relación lineal entre dos variables. De esta manera, su cálculo permite conocer con exactitud el grado de dispersión de los valores  de una variable en relación con una media para dicha variable.*")
 #     
 #  </div>
 
