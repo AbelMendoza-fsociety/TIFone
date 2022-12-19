@@ -228,12 +228,12 @@ import pandas as pd
 
 # In[ ]:
 
-
+st.subheader('Archivo CSV separado por comas ')
 #archivo CSV separado por comas
 encuestaLTP = pd.read_csv('LTP.csv')
 #leer  lineas
 encuestaLTP
-st.subheader('Archivo CSV separado por comas ')
+
 
 
 # In[ ]:
@@ -250,7 +250,7 @@ encuestaLTP.dtypes
 
 # In[ ]:
 
-
+st.subheader('Mostrando los NaN')
 encuestaLTP.isnull().sum()
 
 
