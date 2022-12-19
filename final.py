@@ -1,6 +1,5 @@
 
 import streamlit as st
-st.title(':clipboard
 st.title(':clipboard: Reporte de Ventas') #Titulo del Dash
 st.subheader('Compañía TECH SAS')
 st.markdown('##') #Para separar el titulo de los KPIs, se inserta un paragrafo usando un campo de markdown
