@@ -25,13 +25,14 @@ st.subheader('                                  -Vilca Conde, David Geordy')
 st.subheader('                                  -Mendoza Contreras, Abel Noe')
 st.subheader('                                  -Peña Quispe, Jeampiere Gary')
 
-# ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
+
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 # <center> <h1>INVESTIGACIÓN FORMATIVA</h1> </center> 
 # <center> <h1>PROYECTO FINAL</h1> </center> 
 # <center> <h1>PYTHON - Inteligencia Artificial</h1> </center> 
 
-# ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 st.write("OBJETIVOS")
 
@@ -40,12 +41,13 @@ st.write("*Competencia Comunicativa** Presentación de sus resultados con lengua
 st.write("*Competencia Aprendizaje**: con las aptitudes en **Descomposición** (desarticular el problema en pequeñas series de soluciones), **Reconocimiento de Patrones** (encontrar simulitud al momento de resolver problemas), **Abstracción** (omitir información relevante), **Algoritmos** (pasos para resolución de un problema).*")
 st.write("*Competencia de Trabajo en Equipo**: exige habilidades individuales y grupales orientadas a la cooperación, planificación, coordinación, asignación de tareas, cumplimiento de tareas y solución de conflictos en pro de un trabajo colectivo, utilizando los archivos Jupyter Notebook los cuales se sincronizan en el servidor Gitlab con comandos Git.*")
 
-# ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
+
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 st.subheader('Aplicación en IA')
 st.subheader('Sistema Recomendador')
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 st.write("*El Sistema recomendador deberá encontrar la <strong>compatibilidad o similitud</strong> entre un grupo de personas encuestadas, en las áreas de:*")
 st.write("*Musica*")
@@ -56,7 +58,7 @@ st.write("*Obras de Arte*")
 
 st.write("*La compatibilidad o similitud será encontrada con el algoritmo de Correlación de Pearson y será verificada con la La Matrix de Correlación de Pearson con una librería de Python y utilizando una función personal*")  
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 st.subheader('Base Teórica')
 st.subheader('Análisis de Correlación')
@@ -150,11 +152,11 @@ st.write("*Alguna de las desventajas del coeficiente de correlación son:*")
 st.write("*Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
 st.write("* La distribución de las variables deben ser semejantes a la curva normal.*")
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 # <center> <h1>Propuesta</h1> </center> 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)*")
 
 # ## 1.- Dataset
 
