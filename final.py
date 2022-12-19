@@ -563,8 +563,9 @@ st.subheader('Conclusiones')
 
 
 #  <div class="alert alert-info">
-#     
-#    - ¿Se valido o no los resultados?
+
+st.subheader('Se valido o no los resultado')
+
 #     Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas "m_corr_mio"
 #    
 #     - Los resultados Validados son:
