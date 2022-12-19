@@ -9,8 +9,7 @@ st.markdown('##')
 
 # <center><img src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"></center>
 # 
-st.subheader('Ingeniero Renzo Bolivar - Docente DAIE')
-
+st.markdown("<h1 style='text-align: center; color: grey;'>Ingeniero Renzo Bolivar - Docente DAIE</h1>", unsafe_allow_html=True)
 # <center> <h1>Curso : Computación 1</h1> </center> 
 st.subheader('Computación 1')
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
