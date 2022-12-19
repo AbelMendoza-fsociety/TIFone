@@ -412,7 +412,6 @@ print(f"el 2domayor es {mayor}")
 # In[ ]:
 
 
-pip install matplotlib
 
 
 # In[ ]:
