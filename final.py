@@ -4,14 +4,15 @@
 import streamlit as st
 from PIL import Image
 st.markdown("<h1 style='text-align: center; color: grey;'>Universidad Nacional de San Agustín de Arequipa</h1>", unsafe_allow_html=True)
+
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
 
 # <center><img src="https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png" width="380" height="4200"></center>
+# 
 
-st.markdown("<h2 style='text-align: center; color: black;'>Ingeniero Renzo Bolivar - Docente DAIE </h2>", unsafe_allow_html=True)
-st.markdown("<h2 style='text-align: center; color: black;'>Computación 1 </h2>", unsafe_allow_html=True)
-st.subheader('Computación 1')
+st.markdown("<h2 style='text-align: center; color: white;'>Ingeniero Renzo Bolivar - Docente DAIE </h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: white;'>Computación 1</h2>", unsafe_allow_html=True)
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
 
