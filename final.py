@@ -368,7 +368,7 @@ print(f"el 2domayor es {mayor}")
 st.subheader('Gráfica de Calor')
 
 st.subheader('Grafica de Calor Propio PANDAS')
-st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-1.fna.fbcdn.net/v/t1.15752-9/319159407_3230449323885820_2267753677792259507_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFLn-OlyDpEgCTQ-lRzSkAqiylD1MwMSkKLKUPUzAxKQlUoF06vgyeWpI2vBhdtS0j7rJKiMhVQkqib51u1Owwh&_nc_ohc=uv9fQoET3OAAX-OFHFM&_nc_ht=scontent.faqp2-1.fna&oh=03_AdR2m-Snw5I5Z7Yj_pUqw8hfVqGOn9759pKQwaxwXnKqew&oe=63C80544)*")
+st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-2.fna.fbcdn.net/v/t1.15752-9/319840513_2399116010255444_7051683099654578164_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEGrc4mZ6RttazrP2d7ZoB7UbmWAVdlXMFRuZYBV2VcwVAyZOJXGLfwwTEKf7QiA_T3uFCvQ-tP3NaqTw0ZKYox&_nc_ohc=rzYTJ8x57CoAX8iDBsr&tn=JOPy8uCJH79g_CZ7&_nc_ht=scontent.faqp2-2.fna&oh=03_AdQj55OAGWqjXhu02JYR0gS_QpP5Xx559Vp_XLUIU--eug&oe=63C7E41A)*")
 
 st.subheader('5.- RESULTADOS')
 
