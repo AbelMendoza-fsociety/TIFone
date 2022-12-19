@@ -375,7 +375,34 @@ st.subheader('5.- RESULTADOS')
 st.write("* 1.dmejiagu@unsa.edu.pe y diquiapazam@unsa.edu.pe  obtienen el PRIMER indice mas alto de similitud *")
 #  
 st.write("* 2.  dmejiagu@unsa.edu.pe y _fargotem@unsa.edu.pe  obtienen el **SEGUNDO indice mas alto de similitud*")
+st.subheader('Se valido o no los resultado')
 
+st.write("*Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas *")    
+st.write("*Los resultados Validados son:*")
+st.write("* Los 2 primer mayor resultados*")
+
+st.write("*el mayor es: *") 
+st.write("*dpilaresc@unsa.edu.pe      0.8050*")
+st.write("*el 2domayor es:*")
+st.write("*rramosmont@unsa.edu.pe     0.8050*")
+ 
+st.write("*el 1ermayor es:*")
+st.write("*dpilaresc@unsa.edu.pe    0.8049837428908978*")
+   
+st.write("*el 2domayor es:*")
+st.write("*rramosmont@unsa.edu.pe   0.7902805620025483*")
+     
+st.write("*¿Es efectivo el metodo de correlación de pearson?*")
+st.write("* Si porque valor es independiente de cualquier unidad que se utiliza para medir las variables.*")
+st.write("*Si la muestra es grande, es más probable la exactitud de la estimación.*")
+st.write("*Alguna de las desventajas del coeficiente de correlación son:*")
+
+st.write("*Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
+st.write("*La distribución de las variables deben ser semejantes a la curva normal.*")
+    
+st.write("*Correlación de Pearson y Regresión Lineal, ¿cual es su relación?*")
+st.write("* El coeficiente de correlación lineal es una medida de regresión que sirve para establecer una relación lineal entre dos variables. De esta manera, su cálculo permite conocer con exactitud el grado de dispersión de los valores  de una variable en relación con una media para dicha variable.*")
+            
 
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.p
@@ -511,27 +538,20 @@ corr_mio_ordenada[corr_mio_ordenada>=0.99] = -0.4
 corr_mio_ordenada
 
 
-# In[ ]:
 
 
 corr_mio_ordenada.max().sort_values(ascending=False)
 
-
-# In[ ]:
-
-
 corr_mio_ordenada=pd.DataFrame(data=m_corr_mio,columns=m)
 
 
-# ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.p
+ ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.p
 
 
 st.subheader('Grafica de Calor Propio')
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-3.fna.fbcdn.net/v/t1.15752-9/315524988_2000299573502884_9078479069170880252_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGbXntG-rxR00wSqHjiWZhzAsWytH12qCsCxbK0fXaoKwsgHkcpBcK56w1YNRdDYwPQA42ndeCbOR55vPl-3OOp&_nc_ohc=rQBo_SF-VuQAX8Ra29d&_nc_oc=AQkYmNuaCJ5nptCFtczWtuAn0Ds6l4kf0NsWOpFRtqpubeXtSXGqOycNCgCz4JtIHm0&_nc_ht=scontent.faqp2-3.fna&oh=03_AdRNOmlz53GOOzuZf8HAOZpT0K66IR4FbcurUlinMhGEuw&oe=63C7CD1B)*")
 
 
-
-# In[ ]:
 st.subheader('Grafica de Calor Propio PANDAS')
 st.write("*![que-es-la-regresion-lineal-y-para-que-sirve](https://scontent.faqp2-1.fna.fbcdn.net/v/t1.15752-9/319159407_3230449323885820_2267753677792259507_n.png?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFLn-OlyDpEgCTQ-lRzSkAqiylD1MwMSkKLKUPUzAxKQlUoF06vgyeWpI2vBhdtS0j7rJKiMhVQkqib51u1Owwh&_nc_ohc=uv9fQoET3OAAX-OFHFM&_nc_ht=scontent.faqp2-1.fna&oh=03_AdRYs6gJooAi6T3Ahr03sTLBM5Rb-sY54X5J5nim2zQaRw&oe=63C7CD04)*")
 
@@ -540,8 +560,7 @@ st.subheader('Conclusiones')
 
 st.subheader('Se valido o no los resultado')
 
-st.write("*Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas *")
-#    
+st.write("*Es validado los resultados con la correlacion de m_corrpanda y la validacion de pandas *")    
 st.write("*Los resultados Validados son:*")
 st.write("* Los 2 primer mayor resultados*")
 
@@ -552,21 +571,21 @@ st.write("*rramosmont@unsa.edu.pe     0.8050*")
  
 st.write("*el 1ermayor es:*")
 st.write("*dpilaresc@unsa.edu.pe    0.8049837428908978*")
-#     
+   
 st.write("*el 2domayor es:*")
 st.write("*rramosmont@unsa.edu.pe   0.7902805620025483*")
-#     
+     
 st.write("*¿Es efectivo el metodo de correlación de pearson?*")
 st.write("* Si porque valor es independiente de cualquier unidad que se utiliza para medir las variables.*")
 st.write("*Si la muestra es grande, es más probable la exactitud de la estimación.*")
 st.write("*Alguna de las desventajas del coeficiente de correlación son:*")
-# 
+
 st.write("*Es necesario las dos variables sean medidas a un nivel cuantitativo continuo.*")
 st.write("*La distribución de las variables deben ser semejantes a la curva normal.*")
-#     
+    
 st.write("*Correlación de Pearson y Regresión Lineal, ¿cual es su relación?*")
 st.write("* El coeficiente de correlación lineal es una medida de regresión que sirve para establecer una relación lineal entre dos variables. De esta manera, su cálculo permite conocer con exactitud el grado de dispersión de los valores  de una variable en relación con una media para dicha variable.*")
-#     
+            
 #  </div>
 
 # ![linea 2](https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png)
