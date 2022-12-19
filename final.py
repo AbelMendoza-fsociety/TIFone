@@ -5,7 +5,7 @@ import streamlit as st
 st.title(' Universidad Nacional de San Agustín de Arequipa') 
 st.subheader('Escuela Profesional de Ingeniería de Telecomunicaciones')
 st.markdown('##') 
-from PIL import image
+import plotly.express as px
 image = Image.open('Logo-UNSA.png')
 st.image(image, caption='chunsa')
 # <center> <h1>Universidad Nacional de San Agustín de Arequipa</h1> </center> 
