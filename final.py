@@ -523,7 +523,7 @@ print(m_corr_mio)
 
 # In[ ]:
 
-
+st.subheader('Ordenando la correlación mía con ayuda de pandas')
 ##Ordenando la correlación mía con ayuda de pandas
 
 corr_mio_ordenada=pd.DataFrame(data=m_corr_mio,columns=m)
