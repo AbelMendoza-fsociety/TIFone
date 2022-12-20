@@ -2,22 +2,8 @@
 # coding: utf-8
 
 import streamlit as st
-with st.sidebar:
-    selected = option_menu("Options Menu", ['Third', "Fourth"],
-                           icons=['play', 'play'], menu_icon="cast", default_index=1)
+streamlit run [entrypoint file]
 
-    if selected == "Third":
-        textInput_4 = st.text_input(
-            "First input", value='default 4', key='4')
-        textInput_5 = st.text_input(
-            "Second input", value='default 5', key='5')
-        st.write(bool(textInput_4))
-        if not textInput_4 or not textInput_5:
-            st.sidebar.info("Add input in sidebar")
-    elif selected == "Fourth":
-        textInput_6 = st.text_input("Third input", value='default 6', key='6')
-        if not textInput_6:
-            st.sidebar.info("Add input in sidebar")
 
 
 
